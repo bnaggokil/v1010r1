@@ -182,7 +182,6 @@ async function loadTour() {
   if (!res.ok) throw new Error('tour.json 로드 실패: ' + res.status);
   tour = await res.json();
   await updatePolePatches();
-  document.getElementById('bottombar').style.display = tour.showNav === false ? 'none' : '';
   currentId = tour.startScene || tour.scenes[0]?.id;
   buildSceneList();
   await switchScene(currentId);

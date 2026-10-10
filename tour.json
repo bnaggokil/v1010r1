@@ -1,6 +1,6 @@
 {
-  "title": "",
-  "author": "",
+  "title": "방곡초등학교 3학년 교실",
+  "author": "예쁜 선생님",
   "showNav": true,
   "startScene": "s01",
   "scenes": [
@@ -8,7 +8,7 @@
       "id": "s01",
       "name": "중앙 현관",
       "description": "",
-      "image": "./panoramas/신발장.jpg",
+      "image": "./panoramas/중앙현관.jpg",
       "floor": 1,
       "hotspots": [
         {
@@ -335,7 +335,7 @@
     },
     {
       "id": "s11",
-      "name": "공간11",
+      "name": "복도",
       "description": "",
       "image": "./panoramas/36복도계단.jpg",
       "floor": 2,
@@ -428,7 +428,7 @@
     },
     {
       "id": "s13",
-      "name": "공간13",
+      "name": "복도",
       "description": "",
       "image": "./panoramas/36복도.jpg",
       "floor": 2,
@@ -513,7 +513,7 @@
     },
     {
       "id": "s15",
-      "name": "공간15",
+      "name": "복도",
       "description": "",
       "image": "./panoramas/35복도.jpg",
       "floor": 2,
