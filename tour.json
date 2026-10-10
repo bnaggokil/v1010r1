@@ -1,0 +1,565 @@
+{
+  "title": "",
+  "author": "",
+  "showNav": true,
+  "startScene": "s01",
+  "scenes": [
+    {
+      "id": "s01",
+      "name": "중앙 현관",
+      "description": "",
+      "image": "./panoramas/신발장.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s02",
+          "yaw": 180,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s16",
+          "yaw": 118,
+          "pitch": 0,
+          "text": "3층 올라가기"
+        }
+      ],
+      "popups": [],
+      "initialYaw": 180
+    },
+    {
+      "id": "s02",
+      "name": "복도",
+      "description": "",
+      "image": "./panoramas/31복도.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s01",
+          "yaw": 0,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s04",
+          "yaw": 180,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s03",
+          "yaw": -117,
+          "pitch": 0,
+          "text": "3학년 1반"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s03",
+      "name": "3학년 1반",
+      "description": "",
+      "image": "./panoramas/31교실.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s02",
+          "yaw": 63,
+          "pitch": 0,
+          "text": "앞문으로 나가기"
+        },
+        {
+          "target": "s04",
+          "yaw": 117,
+          "pitch": 0,
+          "text": "뒷문으로 나가기"
+        }
+      ],
+      "popups": [
+        {
+          "id": "ppmv1z4u9z",
+          "name": "공정이란 무엇일까요?",
+          "yaw": -2.7,
+          "pitch": 5.120084178438009,
+          "kind": "video",
+          "url": "https://drive.google.com/file/d/1RJtHnt075PJNqNKfyKEjPiXYcC1uoR0K/view?usp=sharing",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "name": "복도",
+      "description": "",
+      "image": "./panoramas/32복도.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s02",
+          "yaw": 0,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s06",
+          "yaw": 180,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s05",
+          "yaw": -117,
+          "pitch": 0,
+          "text": "3학년 2반"
+        },
+        {
+          "target": "s03",
+          "yaw": -63,
+          "pitch": 0,
+          "text": "3학년 1반"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s05",
+      "name": "3학년 2반",
+      "description": "",
+      "image": "./panoramas/32교실.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s04",
+          "yaw": 63,
+          "pitch": 0,
+          "text": "앞문으로 나가기"
+        },
+        {
+          "target": "s06",
+          "yaw": 117,
+          "pitch": 0,
+          "text": "뒷문으로 나가기"
+        }
+      ],
+      "popups": [
+        {
+          "id": "ppmv1z5kqo",
+          "name": "공정하게 판단해요.",
+          "yaw": -10.3,
+          "pitch": 5.58740606600271,
+          "kind": "video",
+          "url": "https://drive.google.com/file/d/1K57nknZ9kyWRJZhuOAoQ3MNgwEvPTKMf/view?usp=sharing",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "name": "복도",
+      "description": "",
+      "image": "./panoramas/33복도.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s04",
+          "yaw": 0,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s08",
+          "yaw": 180,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s07",
+          "yaw": -117,
+          "pitch": 0,
+          "text": "3학년 3반"
+        },
+        {
+          "target": "s05",
+          "yaw": -63,
+          "pitch": 0,
+          "text": "3학년 2반"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s07",
+      "name": "3학년 3반",
+      "description": "",
+      "image": "./panoramas/33교실.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s06",
+          "yaw": 63,
+          "pitch": 0,
+          "text": "앞문으로 나가기"
+        },
+        {
+          "target": "s08",
+          "yaw": 117,
+          "pitch": 0,
+          "text": "뒷문으로 나가기"
+        }
+      ],
+      "popups": [
+        {
+          "id": "ppmv1z6bvy",
+          "name": "생활에서 공정을 실천해요.",
+          "yaw": -9.6,
+          "pitch": 5.255717051680276,
+          "kind": "video",
+          "url": "https://drive.google.com/file/d/12ltIcbTVR8nGpHpjMH4UPobK5Kohuv__/view?usp=sharing",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "name": "복도",
+      "description": "",
+      "image": "./panoramas/34복도.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s06",
+          "yaw": 0,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s10",
+          "yaw": 180,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s09",
+          "yaw": -117,
+          "pitch": 0,
+          "text": "3학년 4반"
+        },
+        {
+          "target": "s07",
+          "yaw": -63,
+          "pitch": 0,
+          "text": "3학년 3반"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s09",
+      "name": "3학년 4반",
+      "description": "",
+      "image": "./panoramas/34교실.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s08",
+          "yaw": 63,
+          "pitch": 0,
+          "text": "앞문으로 나가기"
+        },
+        {
+          "target": "s10",
+          "yaw": 117,
+          "pitch": 0,
+          "text": "뒷문으로 나가기"
+        }
+      ],
+      "popups": [
+        {
+          "id": "ppmv1z70rz",
+          "name": "공정한 사회를 향해 나아가요.",
+          "yaw": -4.5,
+          "pitch": 5.346177134441733,
+          "kind": "video",
+          "url": "https://drive.google.com/file/d/1TUawNm7m_sLArufO0OSG0hKQxNzX9mkO/view?usp=sharing",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "name": "복도",
+      "description": "",
+      "image": "./panoramas/34복도계단.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s08",
+          "yaw": 0,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s11",
+          "yaw": 90,
+          "pitch": 0,
+          "text": "3층 올라가기"
+        },
+        {
+          "target": "s09",
+          "yaw": -63,
+          "pitch": 0,
+          "text": "3학년 4반"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s11",
+      "name": "공간11",
+      "description": "",
+      "image": "./panoramas/36복도계단.jpg",
+      "floor": 2,
+      "hotspots": [
+        {
+          "target": "s13",
+          "yaw": 0,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s10",
+          "yaw": 90,
+          "pitch": 0,
+          "text": "2층 내려가기"
+        },
+        {
+          "target": "s12",
+          "yaw": -63,
+          "pitch": 0,
+          "text": "3학년 6반"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s12",
+      "name": "3학년 6반",
+      "description": "",
+      "image": "./panoramas/36교실.jpg",
+      "floor": 2,
+      "hotspots": [
+        {
+          "target": "s13",
+          "yaw": 63,
+          "pitch": 0,
+          "text": "앞문으로 나가기"
+        },
+        {
+          "target": "s11",
+          "yaw": 117,
+          "pitch": 0,
+          "text": "뒷문으로 나가기"
+        }
+      ],
+      "popups": [
+        {
+          "id": "ppmv1z80rs",
+          "name": "함께 가는 공정의 길",
+          "yaw": 161.4,
+          "pitch": 8.150642530623639,
+          "kind": "image",
+          "url": "https://drive.google.com/file/d/11cxLYG_RG6wB_8XOfplbq6f5I6whrkGk/view?usp=sharing",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        },
+        {
+          "id": "ppmv1z945a",
+          "name": "함께 가는 공정의 길",
+          "yaw": -159.1,
+          "pitch": 7.519780011929078,
+          "kind": "pdf",
+          "url": "https://drive.google.com/file/d/1Gd_F2CzMK3hAy7P5hUdpfAVpAV6s48Au/view?usp=sharing",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        },
+        {
+          "id": "ppmv1zpfe2",
+          "name": "팝업3",
+          "yaw": -9.3,
+          "pitch": 5.4,
+          "kind": "text",
+          "url": "",
+          "text": "교실 뒷 면을 보세요.",
+          "fontSize": 25,
+          "bold": true,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "name": "공간13",
+      "description": "",
+      "image": "./panoramas/36복도.jpg",
+      "floor": 2,
+      "hotspots": [
+        {
+          "target": "s15",
+          "yaw": 0,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s11",
+          "yaw": 180,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s12",
+          "yaw": -117,
+          "pitch": 0,
+          "text": "3학년 6반"
+        },
+        {
+          "target": "s14",
+          "yaw": -63,
+          "pitch": 0,
+          "text": "3학년 5반"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s14",
+      "name": "3학년 5반",
+      "description": "",
+      "image": "./panoramas/35교실.jpg",
+      "floor": 2,
+      "hotspots": [
+        {
+          "target": "s15",
+          "yaw": 63,
+          "pitch": 0,
+          "text": "앞문으로 나가기"
+        },
+        {
+          "target": "s13",
+          "yaw": 117,
+          "pitch": 0,
+          "text": "뒷문으로 나가기"
+        }
+      ],
+      "popups": [
+        {
+          "id": "ppmv1znqsh",
+          "name": "최종 문제 풀이",
+          "yaw": -6.8,
+          "pitch": 6.3,
+          "kind": "web",
+          "url": "https://bnaggokil.github.io/q1010z/",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        },
+        {
+          "id": "ppmv20avi3",
+          "name": "상장 올리기",
+          "yaw": -140.7,
+          "pitch": 2.7077059845463625,
+          "kind": "web",
+          "url": "https://padlet.com/a01_60/padlet-s024d6h7m5hy8qa6j9n5",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "name": "공간15",
+      "description": "",
+      "image": "./panoramas/35복도.jpg",
+      "floor": 2,
+      "hotspots": [
+        {
+          "target": "s16",
+          "yaw": 0,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s13",
+          "yaw": 180,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s14",
+          "yaw": -117,
+          "pitch": 0,
+          "text": "3학년 5반"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s16",
+      "name": "다행복 쉼터",
+      "description": "",
+      "image": "./panoramas/다행복쉼터.jpg",
+      "floor": 2,
+      "hotspots": [
+        {
+          "target": "s15",
+          "yaw": -153,
+          "pitch": 0,
+          "text": "이동"
+        },
+        {
+          "target": "s01",
+          "yaw": 145,
+          "pitch": 0,
+          "text": "2층 내려가기"
+        }
+      ],
+      "popups": []
+    }
+  ]
+}
